@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['colony']
+
+roboflow:
+  workspace: thisismyswamp
+  project: colony-counter
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/thisismyswamp/colony-counter/dataset/2
